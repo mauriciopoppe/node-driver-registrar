@@ -3,10 +3,10 @@ module github.com/kubernetes-csi/node-driver-registrar
 go 1.21
 
 require (
-	github.com/kubernetes-csi/csi-lib-utils v0.16.0
+	github.com/kubernetes-csi/csi-lib-utils v0.17.0
 	golang.org/x/sys v0.15.0
 	google.golang.org/grpc v1.59.0
-	k8s.io/client-go v0.29.0-rc.1
+	k8s.io/client-go v0.29.0
 	k8s.io/klog/v2 v2.110.1
 	k8s.io/kubelet v0.29.0-rc.1
 )
@@ -15,7 +15,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
-	github.com/container-storage-interface/spec v1.8.0 // indirect
+	github.com/container-storage-interface/spec v1.9.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
 	github.com/go-logr/logr v1.3.0 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
@@ -49,7 +49,7 @@ require (
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apimachinery v0.29.0-rc.1 // indirect
-	k8s.io/component-base v0.29.0-rc.1 // indirect
+	k8s.io/apimachinery v0.29.0 // indirect
+	k8s.io/component-base v0.29.0 // indirect
 	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
 )
