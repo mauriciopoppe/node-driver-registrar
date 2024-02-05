@@ -6,9 +6,9 @@ require (
 	github.com/kubernetes-csi/csi-lib-utils v0.16.0
 	golang.org/x/sys v0.15.0
 	google.golang.org/grpc v1.59.0
-	k8s.io/client-go v0.29.0-rc.1
-	k8s.io/klog/v2 v2.110.1
-	k8s.io/kubelet v0.29.0-rc.1
+	k8s.io/client-go v0.30.0-alpha.1
+	k8s.io/klog/v2 v2.120.1
+	k8s.io/kubelet v0.30.0-alpha.1
 )
 
 require (
@@ -17,7 +17,7 @@ require (
 	github.com/cespare/xxhash/v2 v2.2.0 // indirect
 	github.com/container-storage-interface/spec v1.8.0 // indirect
 	github.com/emicklei/go-restful/v3 v3.11.0 // indirect
-	github.com/go-logr/logr v1.3.0 // indirect
+	github.com/go-logr/logr v1.4.1 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-openapi/jsonpointer v0.19.6 // indirect
 	github.com/go-openapi/jsonreference v0.20.2 // indirect
@@ -43,13 +43,13 @@ require (
 	go.opentelemetry.io/otel v1.20.0 // indirect
 	go.opentelemetry.io/otel/metric v1.20.0 // indirect
 	go.opentelemetry.io/otel/trace v1.20.0 // indirect
-	golang.org/x/net v0.18.0 // indirect
+	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20231106174013-bbf56f31fb17 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
-	k8s.io/apimachinery v0.29.0-rc.1 // indirect
-	k8s.io/component-base v0.29.0-rc.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20231010175941-2dd684a91f00 // indirect
+	k8s.io/apimachinery v0.30.0-alpha.1 // indirect
+	k8s.io/component-base v0.30.0-alpha.1 // indirect
+	k8s.io/kube-openapi v0.0.0-20231113174909-778a5567bc1e // indirect
 )
